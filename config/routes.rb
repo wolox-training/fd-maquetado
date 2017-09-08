@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root to: 'application#index'
+  root to: 'static#landing'
 
   require 'sidekiq/web'
   mount Sidekiq::Web, at: 'sidekiq'

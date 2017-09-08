@@ -1,0 +1,20 @@
+.site {
+  background: $orange;
+  padding-top: 20px;
+
+  .container {
+    align-items: center;
+    background: $white;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    width: 100%;
+
+    .linear-gradient {
+      background: linear-gradient(transparent, $orange, transparent);
+      height: 250px;
+      margin: 0 30px;
+      width: 3px;
+    }
+  }
+}
