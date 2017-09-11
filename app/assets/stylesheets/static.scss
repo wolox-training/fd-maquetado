@@ -1,8 +1,3 @@
-.text {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: bold;
-  text-align: center;
-}
 .first-section {
   align-items: center;
   border-top: 10px solid $orange;
@@ -43,12 +38,14 @@
   margin: 40px 80px;
 
   .feature-title {
+    @include text-base;
     color: $dark-gray;
     font-size: 16px;
     padding: 10px 0;
   }
 
   .feature-description {
+    @include text-base;
     color: $gray;
   }
 }

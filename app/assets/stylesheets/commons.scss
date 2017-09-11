@@ -3,3 +3,9 @@ $white: #FFFFFF;
 $light-gray: #EEEEEE;
 $dark-gray: #111111;
 $gray: #999999;
+
+@mixin text-base {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
