@@ -4,6 +4,11 @@
   text-align: center;
 }
 
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
 .site {
   background: $orange;
   padding-top: 10px;
@@ -56,6 +61,28 @@
       .feature-description {
         color: $gray;
       }
+    }
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 0;
+    color: $white;
+    font-size: 16px;
+
+    .subs-text {
+      padding: 10px 0;
+    }
+
+    .subs-input {
+      max-width: 200px;
+      padding: 10px 0;
+    }
+
+    .subs-button {
+      padding: 10px 0;
     }
   }
 }
